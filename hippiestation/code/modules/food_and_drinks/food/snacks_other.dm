@@ -16,3 +16,12 @@
 	filling_color = "F0D830"
 	tastes = list("taco" = 2, "leg" = 4, "cheese" = 2, "lettuce" = 1)
 	foodtype = MEAT | DAIRY | GRAIN | VEGETABLES | GROSS
+
+/obj/item/weapon/reagent_containers/food/snacks/hippiemeal
+	name = "Hippie Meal Box"
+	desc = "A 'nutritious' edible cardboard box, made by Burger Ling. Written on the front are the words 'I'm validin' it!'. It's not very good for you, but it's cheap."
+	icon_state = "hippiemeal"
+	icon = 'hippiestation/icons/obj/food/food.dmi'
+	bonus_reagents = list(/datum/reagent/consumable/nutriment = 20, /datum/reagent/burpium = 10)
+	trash = /obj/item/trash/box
+	foodtype = VEGETABLES | MEAT | GROSS | DAIRY
